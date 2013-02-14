@@ -2,7 +2,7 @@ Source: r-cran-scales
 Section: gnu-r
 Priority: optional
 Maintainer: The Genome Institute <gmt@genome.wustl.edu>
-Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-rcolorbrewer, r-cran-stringr, r-cran-munsell, r-cran-plyr, r-cran-labeling, r-cran-dichromat
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-rcolorbrewer, r-cran-stringr, r-cran-munsell, r-cran-plyr, r-cran-labeling (>= 0.1-2), r-cran-dichromat
 Homepage: http://cran.fhcrc.org/web/packages/scales/index.html
 
 Package: r-cran-scales
@@ -10,5 +10,5 @@ Architecture: all
 Maintainer: Hadley Wickham <h.wickham@gmail.com>
 Description: Scales map data to aesthetics, and provide methods for automatically determining breaks and labels for axes and legends
 License: Artistic2.0
-Depends: r-base-core, r-cran-rcolorbrewer, r-cran-stringr, r-cran-munsell, r-cran-plyr, r-cran-labeling, r-cran-dichromat
+Depends: r-base-core, r-cran-rcolorbrewer, r-cran-stringr, r-cran-munsell, r-cran-plyr, r-cran-labeling (>= 0.1-2), r-cran-dichromat
 
